@@ -44,5 +44,11 @@
     <Compile Include="businesslogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data Access Layer\Data Access Layer.csproj">
+      <Project>{2e279161-4494-4ecd-a078-5cfe333996cc}</Project>
+      <Name>Data Access Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
