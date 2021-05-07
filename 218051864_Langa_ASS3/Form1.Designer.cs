@@ -40,24 +40,24 @@ namespace _218051864_Langa_ASS3
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.descr = new System.Windows.Forms.Label();
             this.rectangleDiagram = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.tvRatings = new System.Windows.Forms.Label();
+            this.dirCount = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.dirCount = new System.Windows.Forms.Label();
-            this.tvRatings = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.rectangleDiagram.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,15 +159,15 @@ namespace _218051864_Langa_ASS3
             this.label7.TabIndex = 11;
             this.label7.Text = "Description";
             // 
-            // label8
+            // descr
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(220, 9);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(153, 35);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Description";
+            this.descr.AutoSize = true;
+            this.descr.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descr.Location = new System.Drawing.Point(220, 9);
+            this.descr.Name = "descr";
+            this.descr.Size = new System.Drawing.Size(153, 35);
+            this.descr.TabIndex = 12;
+            this.descr.Text = "Description";
             // 
             // rectangleDiagram
             // 
@@ -193,68 +193,68 @@ namespace _218051864_Langa_ASS3
             this.rectangleDiagram.TabIndex = 13;
             this.rectangleDiagram.Paint += new System.Windows.Forms.PaintEventHandler(this.rectangleDiagram_Paint);
             // 
-            // label9
+            // label22
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(15, 13);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(149, 13);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "File Analysed: netflix_titles.csv";
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(15, 173);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(95, 13);
+            this.label22.TabIndex = 29;
+            this.label22.Text = "END OF REPORT";
             // 
-            // label10
+            // label21
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(15, 46);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(99, 13);
-            this.label10.TabIndex = 15;
-            this.label10.Text = "NETFLIX REPORT";
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(385, 124);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(103, 13);
+            this.label21.TabIndex = 28;
+            this.label21.Text = "ratings_tvshows.csv";
             // 
-            // label11
+            // label20
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(15, 59);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(103, 13);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "--------------------------------";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(385, 98);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(101, 13);
+            this.label20.TabIndex = 27;
+            this.label20.Text = "movie_directors.csv";
             // 
-            // label12
+            // tvRatings
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(15, 85);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(40, 13);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "-----------";
+            this.tvRatings.AutoSize = true;
+            this.tvRatings.Location = new System.Drawing.Point(242, 124);
+            this.tvRatings.Name = "tvRatings";
+            this.tvRatings.Size = new System.Drawing.Size(35, 13);
+            this.tvRatings.TabIndex = 26;
+            this.tvRatings.Text = "Count";
             // 
-            // label13
+            // dirCount
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(15, 72);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(39, 13);
-            this.label13.TabIndex = 17;
-            this.label13.Text = "Criteria";
+            this.dirCount.AutoSize = true;
+            this.dirCount.Location = new System.Drawing.Point(242, 98);
+            this.dirCount.Name = "dirCount";
+            this.dirCount.Size = new System.Drawing.Size(35, 13);
+            this.dirCount.TabIndex = 25;
+            this.dirCount.Text = "Count";
             // 
-            // label14
+            // label19
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(242, 85);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(40, 13);
-            this.label14.TabIndex = 20;
-            this.label14.Text = "-----------";
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(15, 124);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(104, 13);
+            this.label19.TabIndex = 24;
+            this.label19.Text = "Rating for Tv Shows";
             // 
-            // label15
+            // label18
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(242, 72);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
-            this.label15.TabIndex = 19;
-            this.label15.Text = "Count";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(15, 98);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(128, 13);
+            this.label18.TabIndex = 23;
+            this.label18.Text = "number of movie directors";
             // 
             // label16
             // 
@@ -274,68 +274,68 @@ namespace _218051864_Langa_ASS3
             this.label17.TabIndex = 21;
             this.label17.Text = "Report";
             // 
-            // label18
+            // label14
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(15, 98);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(128, 13);
-            this.label18.TabIndex = 23;
-            this.label18.Text = "number of movie directors";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(242, 85);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(40, 13);
+            this.label14.TabIndex = 20;
+            this.label14.Text = "-----------";
             // 
-            // label19
+            // label15
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(15, 124);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(104, 13);
-            this.label19.TabIndex = 24;
-            this.label19.Text = "Rating for Tv Shows";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(242, 72);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.TabIndex = 19;
+            this.label15.Text = "Count";
             // 
-            // dirCount
+            // label12
             // 
-            this.dirCount.AutoSize = true;
-            this.dirCount.Location = new System.Drawing.Point(242, 98);
-            this.dirCount.Name = "dirCount";
-            this.dirCount.Size = new System.Drawing.Size(35, 13);
-            this.dirCount.TabIndex = 25;
-            this.dirCount.Text = "Count";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(15, 85);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(40, 13);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "-----------";
             // 
-            // tvRatings
+            // label13
             // 
-            this.tvRatings.AutoSize = true;
-            this.tvRatings.Location = new System.Drawing.Point(242, 124);
-            this.tvRatings.Name = "tvRatings";
-            this.tvRatings.Size = new System.Drawing.Size(35, 13);
-            this.tvRatings.TabIndex = 26;
-            this.tvRatings.Text = "Count";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(15, 72);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(39, 13);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "Criteria";
             // 
-            // label20
+            // label11
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(385, 98);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(101, 13);
-            this.label20.TabIndex = 27;
-            this.label20.Text = "movie_directors.csv";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(15, 59);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(103, 13);
+            this.label11.TabIndex = 16;
+            this.label11.Text = "--------------------------------";
             // 
-            // label21
+            // label10
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(385, 124);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(103, 13);
-            this.label21.TabIndex = 28;
-            this.label21.Text = "ratings_tvshows.csv";
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(15, 46);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(99, 13);
+            this.label10.TabIndex = 15;
+            this.label10.Text = "NETFLIX REPORT";
             // 
-            // label22
+            // label9
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(15, 173);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(95, 13);
-            this.label22.TabIndex = 29;
-            this.label22.Text = "END OF REPORT";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(15, 13);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(149, 13);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "File Analysed: netflix_titles.csv";
             // 
             // Form1
             // 
@@ -343,7 +343,7 @@ namespace _218051864_Langa_ASS3
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 471);
             this.Controls.Add(this.rectangleDiagram);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.descr);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -377,7 +377,7 @@ namespace _218051864_Langa_ASS3
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label descr;
         private System.Windows.Forms.Panel rectangleDiagram;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;

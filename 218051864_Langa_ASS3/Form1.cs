@@ -17,31 +17,36 @@ namespace _218051864_Langa_ASS3
         {
             InitializeComponent();
         }
-        public List<string> lstReleaseYears;
+        
         private void Form1_Load(object sender, EventArgs e)
         {
-            clsValidateRegex populator = new clsValidateRegex();
+            
             
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string ContentType = txtType.Text;
-            string ContentYear = txtYear.Text;
+            string ContentType = txtType.Text; // getting the content type
+            string ContentYear = txtYear.Text; // getting the year 
             clsValidateRegex obj = new clsValidateRegex();
-            listBox1.Items.Clear();
+            listBox1.Items.Clear();// clearing the listbox for a cleaner look
+            // function used to return the relevant list from the criteria 
            var ListFromCriteria =  obj.GetContentFromNewCriteria(ContentType,ContentYear);
 
+            
             foreach (var item in ListFromCriteria.exported)
             {
                 listBox1.Items.Add(item);
             }
+            // methods to generate the supports
             obj.generateDirectorReports();
             obj.generateShowReports();
 
+            // setting the count to the respective label
             dirCount.Text = obj.DirCount.ToString();
             tvRatings.Text = obj.ShowRatingCount.ToString();
-            MessageBox.Show(ListFromCriteria.msg);
+            descr.Text = ListFromCriteria.msg;
+            
             
 
         

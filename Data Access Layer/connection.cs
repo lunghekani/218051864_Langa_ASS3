@@ -8,6 +8,8 @@ using System.Text.RegularExpressions;
 
 namespace Data_Access_Layer
 {
+
+    // LV LANGA 218051864
     public class connection
     {
     }
@@ -16,7 +18,7 @@ namespace Data_Access_Layer
      
 
         public  StreamReader CreateStreamConnection() {
-            var CSV_Stream = new StreamReader("../../netflix_titles.csv");
+            var CSV_Stream = new StreamReader("../../netflix_titles.csv");  // Creating the connection string to the CSV File
 
             return CSV_Stream;
         }
